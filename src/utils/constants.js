@@ -1,37 +1,27 @@
-import MusicNoteIcon from '@mui/icons-material/MusicNote';
 import HomeIcon from '@mui/icons-material/Home';
 import CodeIcon from '@mui/icons-material/Code';
-import OndemandVideoIcon from '@mui/icons-material/OndemandVideo';
-import SportsEsportsIcon from '@mui/icons-material/SportsEsports';
-import LiveTvIcon from '@mui/icons-material/LiveTv';
-import SchoolIcon from '@mui/icons-material/School';
-import FaceRetouchingNaturalIcon from '@mui/icons-material/FaceRetouchingNatural';
-import CheckroomIcon from '@mui/icons-material/Checkroom';
-import GraphicEqIcon from '@mui/icons-material/GraphicEq';
-import TheaterComedyIcon from '@mui/icons-material/TheaterComedy';
-import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
-import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
+import HtmlIcon from '@mui/icons-material/Html';
+import CssIcon from '@mui/icons-material/Css';
+import JavaScriptIcon from '@mui/icons-material/Javascript';
+import PhpIcon from '@mui/icons-material/Php';
+import WebIcon from '@mui/icons-material/Language';
+import ComputerIcon from '@mui/icons-material/Computer';
+import logo1 from '../../src/assets/logo.png'; 
 
-export const logo = 'https://i.ibb.co/s9Qys2j/logo.png';
+export const logo = logo1;
 
 export const categories = [
-  { name: 'New', icon: <HomeIcon />, },
-  { name: 'JS Mastery', icon: <CodeIcon />, },
-  { name: 'Coding', icon: <CodeIcon />, },
-  { name: 'ReactJS', icon: <CodeIcon />, },
-  { name: 'NextJS', icon: <CodeIcon />, },
-  { name: 'Music', icon: <MusicNoteIcon /> },
-  { name: 'Education', icon: <SchoolIcon />, },
-  { name: 'Podcast', icon: <GraphicEqIcon />, },
-  { name: 'Movie', icon: <OndemandVideoIcon />, },
-  { name: 'Gaming', icon: <SportsEsportsIcon />, },
-  { name: 'Live', icon: <LiveTvIcon />, },
-  { name: 'Sport', icon: <FitnessCenterIcon />, },
-  { name: 'Fashion', icon: <CheckroomIcon />, },
-  { name: 'Beauty', icon: <FaceRetouchingNaturalIcon />, },
-  { name: 'Comedy', icon: <TheaterComedyIcon />, },
-  { name: 'Gym', icon: <FitnessCenterIcon />, },
-  { name: 'Crypto', icon: <DeveloperModeIcon />, },
+  { name: 'Coding', icon: <HomeIcon />, },
+  { name: 'HTML', icon: <HtmlIcon />, },
+  { name: 'CSS', icon: <CssIcon />, },
+  { name: 'JavaScript', icon: <JavaScriptIcon/>, },
+  { name: 'PHP', icon: <PhpIcon/>, },
+  { name: 'React.js', icon: <CodeIcon />, },
+  { name: 'Node.js', icon: <CodeIcon />, },
+  { name: 'SQL', icon: <CodeIcon />, },
+  { name: 'C Sharp', icon: <CodeIcon />, },
+  { name: 'Web Development', icon: <WebIcon/>, },
+  { name: 'App Development', icon: <ComputerIcon/>, },
 ];
 
 export const demoThumbnailUrl = 'https://i.ibb.co/G2L2Gwp/API-Course.png';
